@@ -111,10 +111,11 @@ public class VpnStatus {
         String prefix = c.getString(mLastStateresid);
         if (mLastStateresid == R.string.unknown_state)
             message = status + message;
-        if (message.length() > 0)
-            prefix += ": ";
+       // if (message.length() > 0)
+           // prefix += ": ";
 
-        return prefix + message;
+        //return prefix + message;
+        return prefix;
 
     }
 
